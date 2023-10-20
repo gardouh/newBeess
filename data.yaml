@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['Workers', 'bee', 'hornet']
+
+roboflow:
+  workspace: bees-xrlyg
+  project: hard-hat-sample-42ha0
+  version: 10
+  license: Public Domain
+  url: https://app.roboflow.com/bees-xrlyg/hard-hat-sample-42ha0/10
